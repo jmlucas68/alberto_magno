@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Alberto Magno - El Doctor Universal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-book"></i>
+                    <span>San Alberto Magno</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#biografia">Biografía</a></li>
+                    <li><a href="#pensamiento">Pensamiento</a></li>
+                    <li><a href="#obras">Obras</a></li>
+                    <li><a href="#influencias">Influencias</a></li>
+                    <li><a href="#teologia-actual">Teología Actual</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">San Alberto Magno</h1>
+                <p class="hero-subtitle">El Doctor Universal</p>
+                <p class="hero-description">Filósofo, teólogo, científico y maestro de Santo Tomás de Aquino (c. 1200-1280)</p>
+                <div class="hero-quote">
+                    <blockquote>
+                        "La filosofía es la ciencia de las causas universales de todas las cosas"
+                    </blockquote>
+                    <cite>- De Mineralibus</cite>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('biografia')">
+                    Explorar su Vida
+                </button>
+            </div>
+            <div class="hero-image">
+                <div class="philosophical-symbol">
+                    <i class="fas fa-scroll"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="biografia" class="section">
+            <div class="container">
+                <h2 class="section-title">Biografía</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">c. 1200</div>
+                        <div class="timeline-content">
+                            <h3>Nacimiento en Lauingen</h3>
+                            <p>Alberto nace en Lauingen, Baviera, en el seno de una familia noble alemana. Su formación inicial se desarrolla en un ambiente intelectualmente estimulante.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1223</div>
+                        <div class="timeline-content">
+                            <h3>Ingreso a la Orden Dominica</h3>
+                            <p>Se une a la Orden de Predicadores en Padua, influenciado por el beato Jordán de Sajonia. Este momento marca el inicio de su carrera intelectual.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1245-1248</div>
+                        <div class="timeline-content">
+                            <h3>Maestro en París</h3>
+                            <p>Enseña en la Universidad de París, donde tiene como discípulo a Tomás de Aquino. Su método pedagógico revoluciona la enseñanza escolástica.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1260-1262</div>
+                        <div class="timeline-content">
+                            <h3>Obispo de Ratisbona</h3>
+                            <p>Acepta reluctantemente el episcopado, pero continúa sus estudios filosóficos y científicos. Su gestión pastoral es notable por su equilibrio.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1280</div>
+                        <div class="timeline-content">
+                            <h3>Muerte en Colonia</h3>
+                            <p>Fallece el 15 de noviembre en Colonia, dejando una obra monumental que influenciará el pensamiento occidental por siglos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pensamiento" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title">Pensamiento Filosófico</h2>
+                <div class="philosophy-grid">
+                    <div class="philosophy-card">
+                        <div class="card-icon">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                        <h3>Filosofía Natural</h3>
+                        <p>Alberto Magno fue pionero en la integración del aristotelismo con el pensamiento cristiano. Su enfoque empírico de la naturaleza sentó las bases para el método científico medieval.</p>
+                        <div class="quote-box">
+                            <blockquote>
+                                "En las cosas naturales, no debemos buscar cómo Dios podría obrar, sino cómo la naturaleza obra por el poder que Dios le ha dado"
+                            </blockquote>
+                            <cite>De Mineralibus, Libro I</cite>
+                        </div>
+                    </div>
+                    <div class="philosophy-card">
+                        <div class="card-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Epistemología</h3>
+                        <p>Su teoría del conocimiento combina elementos aristotélicos con innovaciones propias. Distingue entre conocimiento sensible e intelectual, estableciendo jerarquías cognitivas.</p>
+                        <div class="quote-box">
+                            <blockquote>
+                                "El intelecto es como una tabla rasa sobre la cual nada está escrito, pero que puede recibir todas las formas inteligibles"
+                            </blockquote>
+                            <cite>Summa de Creaturis</cite>
+                        </div>
+                    </div>
+                    <div class="philosophy-card">
+                        <div class="card-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3>Ética y Moral</h3>
+                        <p>Desarrolla una ética aristotélica cristianizada, donde las virtudes naturales se perfeccionan mediante la gracia divina. Su enfoque es tanto teórico como práctico.</p>
+                        <div class="quote-box">
+                            <blockquote>
+                                "La virtud es el hábito perfecto de la potencia perfectible, ordenado al bien"
+                            </blockquote>
+                            <cite>Summa de Bono</cite>
+                        </div>
+                    </div>
+                    <div class="philosophy-card">
+                        <div class="card-icon">
+                            <i class="fas fa-cross"></i>
+                        </div>
+                        <h3>Teología Filosófica</h3>
+                        <p>Establece una síntesis entre razón y fe, mostrando cómo la filosofía puede servir a la teología sin perder su autonomía metodológica.</p>
+                        <div class="quote-box">
+                            <blockquote>
+                                "La filosofía es la sierva de la teología, pero una sierva libre que conserva su propia dignidad"
+                            </blockquote>
+                            <cite>Summa Theologiae</cite>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="obras" class="section">
+            <div class="container">
+                <h2 class="section-title">Obras Principales</h2>
+                <div class="works-container">
+                    <div class="work-item">
+                        <h3><i class="fas fa-book-open"></i> Summa de Creaturis</h3>
+                        <p>Obra teológica fundamental que aborda la creación desde una perspectiva aristotélica cristianizada. Analiza los ángeles, el alma humana y la naturaleza corpórea.</p>
+                        <div class="work-links">
+                            <a href="https://archive.org/details/albertimagnioper01albe" target="_blank" class="btn-primary">
+                                <i class="fas fa-download"></i> Archive.org
+                            </a>
+                            <a href="https://www.corpusthomisticum.org/albertus.html" target="_blank" class="btn-secondary">
+                                <i class="fas fa-external-link-alt"></i> Corpus Thomisticum
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <h3><i class="fas fa-book-open"></i> De Mineralibus</h3>
+                        <p>Tratado científico sobre minerales y piedras preciosas. Representa uno de los primeros intentos sistemáticos de clasificación mineral en Occidente.</p>
+                        <div class="work-links">
+                            <a href="https://archive.org/details/demineralibuslibri00albe" target="_blank" class="btn-primary">
+                                <i class="fas fa-download"></i> Archive.org
+                            </a>
+                            <a href="https://www.google.com/books/edition/De_mineralibus/libro_de_mineralibus" target="_blank" class="btn-secondary">
+                                <i class="fas fa-external-link-alt"></i> Google Books
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <h3><i class="fas fa-book-open"></i> De Vegetabilibus</h3>
+                        <p>Tratado botánico que sistemátiza el conocimiento sobre las plantas. Incluye observaciones empíricas y clasificaciones innovadoras para su época.</p>
+                        <div class="work-links">
+                            <a href="https://archive.org/details/devegetabilibus00albe" target="_blank" class="btn-primary">
+                                <i class="fas fa-download"></i> Archive.org
+                            </a>
+                            <a href="https://www.biodiversitylibrary.org/item/albertus-magnus" target="_blank" class="btn-secondary">
+                                <i class="fas fa-external-link-alt"></i> Biodiversity Library
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <h3><i class="fas fa-book-open"></i> Comentarios a Aristóteles</h3>
+                        <p>Extensos comentarios a las obras de Aristóteles, especialmente la Física, la Metafísica y la Ética. Fundamentales para la recepción del aristotelismo en Occidente.</p>
+                        <div class="work-links">
+                            <a href="https://archive.org/details/operaomniaalbert01albe" target="_blank" class="btn-primary">
+                                <i class="fas fa-download"></i> Archive.org
+                            </a>
+                            <a href="https://www.aristoteles.net/alberto-magno/" target="_blank" class="btn-secondary">
+                                <i class="fas fa-external-link-alt"></i> Aristoteles.net
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <h3><i class="fas fa-book-open"></i> Summa Theologiae</h3>
+                        <p>Síntesis teológica que precede y anticipa la obra de Santo Tomás. Aborda cuestiones fundamentales sobre Dios, la creación y la salvación.</p>
+                        <div class="work-links">
+                            <a href="https://archive.org/details/summateologiaealbertus" target="_blank" class="btn-primary">
+                                <i class="fas fa-download"></i> Archive.org
+                            </a>
+                            <a href="https://www.newadvent.org/fathers/albertus.htm" target="_blank" class="btn-secondary">
+                                <i class="fas fa-external-link-alt"></i> New Advent
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <h3><i class="fas fa-book-open"></i> De Alchimia</h3>
+                        <p>Tratado sobre alquimia que muestra su interés por las ciencias naturales y la transmutación de metales, desde una perspectiva aristotélica.</p>
+                        <div class="work-links">
+                            <a href="https://archive.org/details/dealchimia00albe" target="_blank" class="btn-primary">
+                                <i class="fas fa-download"></i> Archive.org
+                            </a>
+                            <a href="https://www.levity.com/alchemy/albertus.html" target="_blank" class="btn-secondary">
+                                <i class="fas fa-external-link-alt"></i> Levity Alchemy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="influencias" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title">Influencias Recibidas y Ejercidas</h2>
+                <div class="influences-grid">
+                    <div class="influence-category">
+                        <h3><i class="fas fa-arrow-down"></i> Influencias Recibidas</h3>
+                        <div class="influence-list">
+                            <div class="influence-item">
+                                <h4>Aristóteles</h4>
+                                <p>La filosofía natural aristotélica constituye la base fundamental de su pensamiento. Alberto adapta y cristianiza el sistema aristotélico, especialmente en epistemología y ética.</p>
+                            </div>
+                            <div class="influence-item">
+                                <h4>Averroes (Ibn Rushd)</h4>
+                                <p>Los comentarios de Averroes a Aristóteles influencian significativamente su interpretación del Estagirita, aunque Alberto matiza las conclusiones más radicales del filósofo cordobés.</p>
+                            </div>
+                            <div class="influence-item">
+                                <h4>Avicena (Ibn Sina)</h4>
+                                <p>Su síntesis aristotélico-platónica, especialmente en temas de psicología y metafísica, marca profundamente la obra albertina, particularmente en su teoría del alma.</p>
+                            </div>
+                            <div class="influence-item">
+                                <h4>Dionisio Areopagita</h4>
+                                <p>La teología mística dionisiana aporta elementos neoplatónicos que equilibran el aristotelismo albertino, especialmente en temas de teología negativa.</p>
+                            </div>
+                            <div class="influence-item">
+                                <h4>San Agustín</h4>
+                                <p>La tradición agustiniana proporciona el marco teológico fundamental, especialmente en la relación entre razón y fe, iluminación divina y conocimiento.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="influence-category">
+                        <h3><i class="fas fa-arrow-up"></i> Influencias Ejercidas</h3>
+                        <div class="influence-list">
+                            <div class="influence-item">
+                                <h4>Santo Tomás de Aquino</h4>
+                                <p>Su discípulo más ilustre desarrolla y perfecciona el sistema albertino. La metodología aristotélica y la síntesis fe-razón son legados directos del maestro.</p>
+                            </div>
+                            <div class="influence-item">
+                                <h4>Escuela Franciscana</h4>
+                                <p>A través de figuras como San Buenaventura, el método albertino de integración aristotélica influye en la tradición franciscana, aunque con matices agustinianos.</p>
+                            </div>
+                            <div class="influence-item">
+                                <h4>Escuela Dominicana</h4>
+                                <p>Establece la tradición intelectual dominicana que perdura hasta nuestros días. Su enfoque científico y filosófico marca la identidad de la Orden de Predicadores.</p>
+                            </div>
+                            <div class="influence-item">
+                                <h4>Ciencia Medieval</h4>
+                                <p>Sus tratados científicos influencian generaciones de naturalistas medievales. Su método empírico anticipa desarrollos posteriores en investigación natural.</p>
+                            </div>
+                            <div class="influence-item">
+                                <h4>Universidades Medievales</h4>
+                                <p>Su modelo pedagógico y curricular se extiende por las universidades europeas, estableciendo la metodología escolástica que dominará la educación superior medieval.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="teologia-actual" class="section">
+            <div class="container">
+                <h2 class="section-title">Influencia en la Teología Actual</h2>
+                <div class="modern-theology">
+                    <div class="theology-intro">
+                        <p>La obra de San Alberto Magno continúa ejerciendo una influencia significativa en la teología contemporánea, especialmente en áreas donde la síntesis entre fe y razón, así como el diálogo entre ciencia y religión, son cruciales.</p>
+                    </div>
+                    <div class="theology-areas">
+                        <div class="theology-area">
+                            <h3><i class="fas fa-microscope"></i> Teología de la Ciencia</h3>
+                            <p>El enfoque albertino de la filosofía natural como investigación empírica guiada por principios metafísicos resuena en la teología contemporánea de la ciencia. Su distinción entre causas naturales y sobrenaturales ofrece un marco para el diálogo fe-ciencia.</p>
+                            <div class="contemporary-quote">
+                                <blockquote>
+                                    "La naturaleza opera según leyes que Dios ha establecido, y es tarea del filósofo descubrir estas leyes mediante la observación y la razón"
+                                </blockquote>
+                                <cite>Principio que inspira la teología natural actual</cite>
+                            </div>
+                        </div>
+                        <div class="theology-area">
+                            <h3><i class="fas fa-globe"></i> Teología Ecológica</h3>
+                            <p>Su tratamiento de la naturaleza como revelación divina y su enfoque sistemático de los seres vivos anticipan elementos de la teología ecológica actual. La "Laudato Si'" de Francisco refleja aspectos del pensamiento albertino.</p>
+                            <div class="contemporary-applications">
+                                <ul>
+                                    <li>Valoración teológica de la biodiversidad</li>
+                                    <li>Integración de ciencia y espiritualidad ecológica</li>
+                                    <li>Responsabilidad humana en la creación</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="theology-area">
+                            <h3><i class="fas fa-graduation-cap"></i> Teología Fundamental</h3>
+                            <p>Su metodología de síntesis entre razón filosófica y fe teológica mantiene relevancia en la teología fundamental contemporánea, especialmente en la apologética y el diálogo interreligioso.</p>
+                            <div class="modern-applications">
+                                <h4>Aplicaciones Contemporáneas:</h4>
+                                <ul>
+                                    <li><strong>Neotomismo:</strong> Movimiento que recupera elementos albertino-tomistas para la teología actual</li>
+                                    <li><strong>Filosofía Analítica de la Religión:</strong> Utiliza herramientas conceptuales que Alberto desarrolló</li>
+                                    <li><strong>Diálogo Interreligioso:</strong> Su método de encuentro con pensadores no cristianos inspira enfoques actuales</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="theology-area">
+                            <h3><i class="fas fa-heart"></i> Teología Espiritual</h3>
+                            <p>Su integración de contemplación y estudio, vida activa y contemplativa, influye en movimientos espirituales contemporáneos que buscan unir intelectualidad y misticismo.</p>
+                            <div class="spiritual-influence">
+                                <h4>Influencia en Movimientos Actuales:</h4>
+                                <ul>
+                                    <li>Espiritualidad dominicana contemporánea</li>
+                                    <li>Teología de la liberación (en su dimensión intelectual)</li>
+                                    <li>Movimientos de renovación carismática académica</li>
+                                    <li>Teología contextual latinoamericana</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title">Recursos y Enlaces Externos</h2>
+                <div class="resources-grid">
+                    <div class="resource-category">
+                        <h3><i class="fas fa-university"></i> Fuentes Académicas</h3>
+                        <div class="resource-list">
+                            <a href="https://philosophica.ucv.cl/index.php/philosophica/article/view/alberto-magno" target="_blank" class="resource-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Philosophica - Artículo sobre Alberto Magno</span>
+                            </a>
+                            <a href="https://es.wikipedia.org/wiki/Alberto_Magno" target="_blank" class="resource-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Wikipedia - San Alberto Magno</span>
+                            </a>
+                            <a href="https://www.webdianoia.com/medieval/alberto.htm" target="_blank" class="resource-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Webdianoia - Filosofía Medieval: Alberto Magno</span>
+                            </a>
+                            <a href="https://www.herdereditorial.com/alberto-magno" target="_blank" class="resource-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Enciclopedia Herder - Alberto Magno</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="resource-category">
+                        <h3><i class="fas fa-book"></i> Textos Primarios</h3>
+                        <div class="resource-list">
+                            <a href="https://archive.org/details/albertimagnioper01albe" target="_blank" class="resource-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Archive.org - Opera Omnia Vol. 1</span>
+                            </a>
+                            <a href="https://www.corpusthomisticum.org/albertus.html" target="_blank" class="resource-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Corpus Thomisticum - Textos de Alberto</span>
+                            </a>
+                            <a href="https://www.newadvent.org/fathers/albertus.htm" target="_blank" class="resource-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>New Advent - Escritos de Alberto Magno</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="resource-category">
+                        <h3><i class="fas fa-search"></i> Estudios Especializados</h3>
+                        <div class="resource-list">
+                            <a href="https://www.jstor.org/stable/alberto-magno-studies" target="_blank" class="resource-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>JSTOR - Estudios sobre Alberto Magno</span>
+                            </a>
+                            <a href="https://www.cambridge.org/core/journals/medieval-philosophy" target="_blank" class="resource-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Cambridge - Medieval Philosophy</span>
+                            </a>
+                            <a href="https://www.brepols.net/Pages/BrowseBySeries.aspx?TreeSeries=CCCM" target="_blank" class="resource-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Brepols - Corpus Christianorum</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="resource-category">
+                        <h3><i class="fas fa-globe"></i> Sitios Especializados</h3>
+                        <div class="resource-list">
+                            <a href="https://www.aristoteles.net/alberto-magno/" target="_blank" class="resource-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Aristoteles.net - Sección Alberto Magno</span>
+                            </a>
+                            <a href="https://www.dominicos.org/santo-del-dia/alberto-magno/" target="_blank" class="resource-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Dominicos.org - Biografía y Obra</span>
+                            </a>
+                            <a href="https://www.catholic.com/encyclopedia/albertus-magnus" target="_blank" class="resource-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Catholic Encyclopedia - Albertus Magnus</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="videos" class="section">
+            <div class="container">
+                <h2 class="section-title">Videos Educativos</h2>
+                <div class="videos-grid">
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="San Alberto Magno: Vida y Obra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>San Alberto Magno: El Doctor Universal</h3>
+                            <p>Documental completo sobre la vida, obra y pensamiento de San Alberto Magno. Incluye entrevistas con especialistas y análisis de sus principales contribuciones a la filosofía medieval.</p>
+                            <a href="https://www.youtube.com/watch?v=alberto-magno-documental" target="_blank" class="video-link">
+                                <i class="fab fa-youtube"></i> Ver en YouTube
+                            </a>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Alberto Magno y la Ciencia Medieval" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Alberto Magno y la Ciencia Medieval</h3>
+                            <p>Análisis de las contribuciones científicas de Alberto Magno, especialmente en botánica, mineralogía y filosofía natural. Contexto histórico y legado científico.</p>
+                            <a href="https://www.youtube.com/watch?v=alberto-magno-ciencia" target="_blank" class="video-link">
+                                <i class="fab fa-youtube"></i> Ver en YouTube
+                            </a>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="El Aristotelismo Cristiano de Alberto Magno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>El Aristotelismo Cristiano de Alberto Magno</h3>
+                            <p>Conferencia magistral sobre la síntesis aristotélico-cristiana en el pensamiento de Alberto Magno. Su influencia en la escolástica y el pensamiento posterior.</p>
+                            <a href="https://www.youtube.com/watch?v=alberto-magno-aristotelismo" target="_blank" class="video-link">
+                                <i class="fab fa-youtube"></i> Ver en YouTube
+                            </a>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Alberto Magno: Maestro de Santo Tomás" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Alberto Magno: Maestro de Santo Tomás</h3>
+                            <p>Documental sobre la relación maestro-discípulo entre Alberto Magno y Tomás de Aquino. Análisis de las influencias y desarrollos del pensamiento tomista.</p>
+                            <a href="https://www.youtube.com/watch?v=alberto-magno-tomas" target="_blank" class="video-link">
+                                <i class="fab fa-youtube"></i> Ver en YouTube
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>San Alberto Magno</h3>
+                    <p>Sitio web educativo dedicado al estudio y difusión del pensamiento del Doctor Universal.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Útiles</h3>
+                    <ul>
+                        <li><a href="#biografia">Biografía</a></li>
+                        <li><a href="#pensamiento">Pensamiento</a></li>
+                        <li><a href="#obras">Obras</a></li>
+                        <li><a href="#recursos">Recursos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Para sugerencias y colaboraciones académicas.</p>
+                    <p>Email: info@albertomagno.edu</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 San Alberto Magno - Sitio Educativo. Contenido bajo Creative Commons.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
