@@ -1,0 +1,1 @@
+Fix: Mejora la visibilidad del texto en modo oscuro

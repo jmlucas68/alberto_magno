@@ -864,4 +864,24 @@ html {
         --background-alt: #34495e;
         --border-color: #495057;
     }
+
+    .timeline-item,
+    .philosophy-card,
+    .work-item,
+    .influence-item,
+    .theology-intro,
+    .theology-area,
+    .resource-category,
+    .video-item {
+        background-color: var(--background-alt);
+    }
+
+    footer {
+        background: #1c2833;
+        color: var(--text-dark);
+    }
+
+    .footer-section ul li a {
+        color: var(--text-dark);
+    }
 }
